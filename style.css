@@ -1,0 +1,63 @@
+.logo {}
+.menu {}
+.konten {}
+.footer {}
+
+body {
+width: 960px; /*set lebar body website*/
+margin: 30px auto; /*set posisi body (auto; left; right; center)*/
+}
+
+main {
+display: flex;
+}
+
+.logo,
+.menu,
+.konten,
+.footer {
+margin-bottom: 5px;
+padding: 15px 0;
+}
+
+.logo {
+width: 100%;
+height: auto;
+background: #99D9EA;
+text-align: center;
+}
+/*bagian menu*/
+.menu{
+	background: red;
+}
+ 
+.menu ul{
+	padding: 0;
+	margin: 0;
+	background: red;
+	overflow: hidden;
+}
+ 
+.menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}	
+
+
+.konten {
+width: 100%;
+background: #FD7E00;
+text-align: center;
+}
+
+.footer {
+width: 100%;
+background: #C3C3C3;
+text-align: center;
+}
